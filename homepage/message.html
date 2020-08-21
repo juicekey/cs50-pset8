@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+        <link href="styles.css" rel="stylesheet">
+        <title>My Webpage</title>
+    </head>
+    <body>
+        <div class="nav" id="navbar">
+            <div class = "container-fluid">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="experience.html">Experience</a>
+                <a href="message.html">Message</a>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <h1>Message</h1>
+            <h4>Shoot me a message... Hopefully something nice.</h4>
+            <form>
+                <div class="form-group">
+                    <input class="form-control" type ="text" id="message">
+                    <label for="message">Your message</label>
+                    <input class="form-control" type="text" id="name">
+                    <label for="name">Your name</label>
+                    <input class="form-control" type="text" id="email">
+                    <label for="email">Your email</label>
+                    <input class="form-control" type="submit" id="submitButton" onClick="submitForm()">
+                </div>
+            </form>
+            <script src="message.js"></script>
+        </div>
+    </body>
+</html>
